@@ -21,7 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Bas.Belvedere.Arm.ino" />
-    <ClCompile Include="ErrorAnimation.cpp">
+    <ClCompile Include="ErrorSequence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="__vm\.Bas.Belvedere.Arm.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ErrorAnimation.h">
+    <ClInclude Include="ErrorSequence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
