@@ -15,10 +15,10 @@ const int secondFoggerPin = 4;
 const unsigned long debounceDelay = 50; // Amount of milliseconds to debounce
 
 const unsigned long errorSequenceStartDelay = 5000;
-const unsigned long errorSequenceMinDuration = 10000;
-const unsigned long errorSequenceMaxDuration = 20000;
-const unsigned long minAutoStartIntervalInMinutes = 2;
-const unsigned long maxAutoStartIntervalInMinutes = 4;
+const unsigned long errorSequenceMinDuration = 20000;
+const unsigned long errorSequenceMaxDuration = 30000;
+const unsigned long minAutoStartIntervalInMinutes = 30;
+const unsigned long maxAutoStartIntervalInMinutes = 60;
 
 unsigned long autoStartIntervalDurationInMinutes;
 Bas::Button button{ buttonPin, debounceDelay, Bas::Button::LogLevel::normal };
